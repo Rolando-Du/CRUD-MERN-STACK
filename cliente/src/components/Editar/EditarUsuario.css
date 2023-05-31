@@ -1,0 +1,23 @@
+.mt-4{
+    color: var(--font-color-blue);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px 15px;
+
+}
+#nombre,
+#email,
+#telefono{
+    color: var(--font-color-black);
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-green{
+    background: var(--background-green);
+    color: var(--font-color-wheat);
+    border-radius: 5px;
+    width: 8rem;
+    height: 3rem;
+    margin: 20px;
+    font-size: 18px;
+}

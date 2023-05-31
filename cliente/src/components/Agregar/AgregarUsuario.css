@@ -1,0 +1,25 @@
+.mt-4 {
+    color: var(--font-color-blue);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 15px 15px;
+
+}
+label.form-label{
+    color: var(--font-color-red);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-green {
+    background: var(--background-green);
+    color: var(--font-color-wheat);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    font-size: 20px;
+}
+.btn-green:hover {
+    background: var(--background-green2);
+}

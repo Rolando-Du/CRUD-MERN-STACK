@@ -1,0 +1,71 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+	--font-poppit: 'Poppins', sans-serif;
+	--font-roboto: 'Roboto', sans-serif;
+
+	--font-color-wheat: rgb(255, 255, 255);
+	--font-color-ligthblue: rgb(13, 172, 193);
+	--font-color-black: rgb(13, 13, 13);
+	--font-color-paragraph: rgb(42, 42, 42);
+	--font-color-red: rgb(239, 2, 2);
+	--font-color-blue: rgba(9,98,121);
+	--font-color-blue2: rgb(10, 6, 248);
+	--font-color-darkblue: rgb(5, 63, 255);
+
+	--background-ligthblue: rgba(9, 99, 121, 0.1);
+	--background-blue: rgb(9, 117, 121);
+	--background-bluel: rgb(208, 216, 242);
+	--background-darkblue: rgb(40, 36, 109);
+	--background-grey: rgb(217, 217, 217);
+	--background-darkgrey: rgb(39, 39, 39);
+	--background-blackAndGrey: rgb(10, 10, 10);
+	--background-white: rgb(232, 228, 228);
+	--background-yellow: rgb(232, 211, 165);
+	--background-green: rgb(5, 131, 55);
+	--background-green2: rgb(75, 170, 24);
+	--background-red: rgb(184, 55, 55);
+	--background-red2: rgb(255, 0, 0);
+}
